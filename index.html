@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- BULE-TAB START -->
+    <section class="FileTab">
+        <div class="container-fluid ">
+            <div class="top-row">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <ul class="fileOption">
+                            <!-- <li><i class="fa-solid fa-list"></i></li> -->
+                            <li><i class="fa-regular fa-floppy-disk"></i></li>
+                            <li>
+                                <i class="fa-solid fa-reply"></i>
+                            </li>
+                            <li> <i class="fa-solid fa-chevron-down"></i></li>
+                            <li><i class="fa-solid fa-rotate-right"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="fileContent">
+                            <h6>Document-word</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <ul class="minimizOption">
+                            
+                            <li>User Name <span><i class="fa-solid fa-user"></i></span></li>
+                            <li><i class="fa-solid fa-cloud-arrow-up"></i></li>
+                            <li><i class="fa-solid fa-minus"></i></li>
+                            <li><i class="fa-regular fa-square"></i></li>
+                            <li><i class="fa-solid fa-xmark"></i></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-row">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul class="nav nav-tabs  word-tab" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button" role="tab"
+                                    aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="insert-tab" data-bs-toggle="tab"
+                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                    aria-controls="profile-tab-pane" aria-selected="false">Insert</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="draw-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Draw</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="design-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Design</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="layout-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Layout</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="reference-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Reference</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="mailing-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Mailing</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="review-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Review</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="view-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">View</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link word-link" id="help-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">Help</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                aria-labelledby="home-tab" tabindex="0"></div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                aria-labelledby="insert-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Omnis quo maiores delectus
+                                cumque eos necessitatibus non velit nisi cum quibusdam praesentium aliquid corporis,
+                                nemo aut
+                                iure officiis iusto quae unde.</div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="draw-tab"
+                                tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus
+                                magni
+                                perspiciatis beatae placeat, odit nesciunt unde repellat quasi reprehenderit porro, nisi
+                                cumque
+                                mollitia ullam! Incidunt totam soluta cumque enim!</div>
+
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                aria-labelledby="design-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias accusamus magni
+                                perspiciatis beatae placeat, odit nesciunt unde repellat quasi reprehenderit porro, nisi
+                                cumque
+                                mollitia ullam! Incidunt totam soluta cumque enim!</div>
+
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                aria-labelledby="design-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias accusamus magni
+                                perspiciatis beatae placeat, odit nesciunt unde repellat quasi reprehenderit porro, nisi
+                                cumque
+                                mollitia ullam! Incidunt totam soluta cumque enim!</div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                aria-labelledby="layout-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias accusamus magni
+                                perspiciatis beatae placeat, odit nesciunt unde repellat quasi reprehenderit porro, nisi
+                                cumque
+                                mollitia ullam! Incidunt totam soluta cumque enim!</div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                aria-labelledby="reference-tab" tabindex="0">lorem</div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                aria-labelledby="mailing-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias accusamus magni
+                                perspiciatis beatae placeat, odit nesciunt unde repellat quasi reprehenderit porro, nisi
+                                cumque
+                                mollitia ullam! Incidunt totam soluta cumque enim!</div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="suggestOption">
+                            <ul class="optionMenu">
+                                <li><i class="fa-brands fa-medapps"></i><select name="" id="">
+                                        <option value="">tell me what you want</option>
+                                    </select></li>
+                            </ul>
+                            <ul>
+                                <li><i class="fa-regular fa-message"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- BULE-TAB END -->
+
+    <!-- MENU START -->
+    <section class="menu-tab">
+        <div class="container-fluid px-4">
+            <div class="row">
+                <div class=" col-lg-1">
+                    <div class="pastBox">
+                        <div class="pastOption">
+                            <figure><img src="./images/clipart.png" alt="">
+                                <figcaption>Paste</figcaption>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </figure>
+                            <ul class="fileOp">
+                                <li><img src="./images/scissors.png" alt=""></li>
+                                <li><img src="./images/archives.png" alt=""></li>
+                                <li><img src="./images/clear-icon.png" alt=""></li>
+                            </ul>
+                        </div>
+                        <p>clipboard <span><i class="fa-solid fa-up-right-from-square"></i></span> </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="fontMenu">
+                        <div class="fontOption">
+                            <select name="" id="">
+                                <option value="">Calibri Light</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                            <ul class="fontList">
+                                <li>A <sup><i class="fa-solid fa-sort-up"></i></sup></li>
+                                <li class="borderRight"><span>A</span> <sup><i class="fa-solid fa-sort-down"></i></sup>
+                                </li>
+                                <li>Aa <span><i class="fa-solid fa-chevron-down"></i></span></li>
+
+                                <li>A<span class="rulerIcon"><i class="fa-solid fa-ruler"></i></span></li>
+                            </ul>
+
+                        </div>
+                        <div class="fontBold">
+                            <ul>
+                                <li><b>B</b></li>
+                                <li><b><i>I</i></b></li>
+                                <li><b><u>U</u></b><select name="" id="">
+                                        <option value=""></option>
+                                    </select></li>
+                                <li><s>abc</s></li>
+                                <li>x<sup>2</sup></li>
+                                <li class="b-right">x <sub>2</sub></li>
+                                <li class="outlineText">A</li>
+                                <li><span class="b-bottom">abc</span></li>
+                                <li><span class="b-red">A</span></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="font">
+                            <p>Font<span><i class="fa-solid fa-up-right-from-square"></i></span> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="paragraphSec">
+                        <ul class="paraBox">
+                            <li><i class="fa-solid fa-list-ol"></i><span><i class="fa-solid fa-angle-down"></i></span>
+                            </li>
+                            <li> <i class="fa-solid fa-list-ul"></i><span><i class="fa-solid fa-angle-down"></i></span>
+                            </li>
+                            <li><i class="fa-solid fa-indent"></i><span><i class="fa-solid fa-angle-down"></i></span>
+                            </li>
+                            <li><i class="fa-solid fa-arrow-down-a-z"></i></li>
+
+                            <li> <i class="fa-solid fa-list-check"></i></li>
+                            <li><img src="./images/showHide-img.png" alt=""></li>
+                        </ul>
+                        <ul class="paraBox">
+                            <li><i class="fa-solid fa-align-right"></i></li>
+                            <li><i class="fa-solid fa-align-left"></i></li>
+                            <li><i class="fa-solid fa-align-justify"></i></li>
+                            <li><i class="fa-solid fa-align-center"></i></li>
+                            <li><img src="./images/filling.png" alt="img"><span><i
+                                        class="fa-solid fa-angle-down"></i></span></li>
+                            <li><i class="fa-solid fa-border-all"></i></li>
+                            <li><i class="fa-solid fa-bars-staggered"></i></li>
+                        </ul>
+                        <div class="font">
+                            <p>Paraghraph<span><i class="fa-solid fa-up-right-from-square"></i></span> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="borderEnd">
+                        <div class="alphabet">
+                            <ul class="lettersBox">
+                                <li>
+                                    <h2>AaBbCcDd..</h2>
+                                    <p>Normal</p>
+                                </li>
+                                <li>
+                                    <h2>AaBbCcDd..</h2>
+                                    <p>Normal</p>
+                                </li>
+                                <li>
+                                    <h2>AaBbCcD</h2>
+                                    <p>heading1</p>
+                                </li>
+
+                            </ul>
+                            <ul class="dropDown">
+                                <li><i class="fa-solid fa-sort-down"></i></li>
+                                <li><i class="fa-solid fa-sort-down"></i></li>
+                                <li><i class="fa-solid fa-sort-down"></i></li>
+                            </ul>
+
+                        </div>
+                        <div class="font">
+                            <p>Styles<span><i class="fa-solid fa-up-right-from-square"></i></span> </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-1">
+                    <div class="borderEnd">
+                        <ul class="searchingIcon">
+                            <li class="magnify"><i class="fa-solid fa-magnifying-glass"></i>find</li>
+                            <li><i class="fa-solid fa-rotate"></i>Replace</li>
+                            <li class="arrowIcon"><i class="fa-solid fa-arrow-pointer"></i>select</li>
+                        </ul>
+                        <div class="font">
+                            <p>Editing<span><i class="fa-solid fa-up-right-from-square"></i></span> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <ul class="addIn">
+                        <li><i class="fa-solid fa-circle"></i></li>
+                        <li>Add-ins</li>
+                        <li>Add-ins</li>
+                    </ul>
+                    <div class="font">
+                        <p>Add-ins<span><i class="fa-solid fa-up-right-from-square"></i></span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MENU END -->
+
+    <!-- WORD-PAGE START -->
+    <section class="whitePage">
+        <div class="container">
+           
+                <div class="row  justify-cotent-center align-items-center">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="pageSec">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WORD-PAGE END -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Bluecolor: #2b579a;
+  --Graycolor: #c6c6c6;
+  --Darkgary: #727272;
+  --Textbold: #505050;
+  --Bgcolor: #f3f3f3;
+}
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body{
+    background: #e6e6e6;
+}
+/* =========================== */
+.FileTab {
+    background: var(--Bluecolor);
+    color: #fff;
+    padding-top: 15px;
+}
+.fileOption {
+  display: flex;
+}
+.minimizOption {
+  display: flex;
+  justify-content: end;
+}
+.minimizOption li {
+  padding-left: 20px;
+}
+.fileOption li {
+  padding-right: 20px;
+}
+.fileContent {
+  text-align: center;
+}
+h1 {
+  color: var(--Bluecolor);
+}
+svg > path.OfficeIconColors_m212 {
+  fill: #f8db8fff;
+}
+
+/* ================== */
+.bottom-row {
+  padding-top: 10px;
+}
+.word-tab {
+  border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+  color: var(--Bluecolor) !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link
+{
+  background: var(--Bgcolor) !important;
+  color: var(--Bluecolor) !important;
+}
+.nav-tabs .nav-link:hover {
+    background: #03327a59!important;
+    color: #fff !important;
+}
+/* .word-tab li{
+    margin-right:5px
+} */
+.word-tab li button {
+  color: #fff;
+}
+.word-tab .word-link {
+  border-radius: 0 !important;
+}
+.word-link {
+  border-radius: none !important;
+  color: #fff !important;
+  border: none !important;
+  font-weight: 600;
+}
+.suggestOption {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.optionMenu li {
+    background: transparent;
+    padding: 8px;
+}
+.optionMenu li i{
+    padding-right: 10px;
+}
+.optionMenu select {
+  text-transform: capitalize;
+  color: #fff;
+  background: transparent !important;
+  outline: none;
+  border: none;
+}
+
+/* ====MENU START===== */
+.menu-tab {
+    padding: 15px 0;
+    background: #f3f3f3;
+}
+.pastOption {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  text-align: center;
+  margin: 0 !important;
+}
+figcaption {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.pastOption img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.fileOp img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.fileOp {
+  margin-left: 10px;
+}
+.pastBox p {
+  text-transform: capitalize;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  font-weight: 600;
+}
+.pastBox p span {
+  font-size: 13px;
+  padding-left: 5px;
+}
+.pastBox {
+  border-right: 1px solid var(--Darkgary);
+}
+
+/* font family option  */
+.fontOption {
+  display: flex;
+  align-items: center;
+}
+.fontOption select {
+    font-size: 0.99rem;
+    color: #343030;
+    text-transform: capitalize;
+    font-weight: 600;
+    outline: none;
+    padding: 7px 1px;
+    border: 1px solid var(--Darkgary);
+}
+
+.fontOption select:hover {
+  border: 2px solid var(--Bluecolor);
+}
+.fontOption li {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--Darkgary);
+}
+.fontOption li i {
+  color: #5481c7;
+}
+.fontOption li span {
+  font-size: 16px;
+}
+.fontOption li {
+  padding-left: 10px;
+}
+.fontList {
+  display: flex;
+}
+.fontList li:nth-child(even) {
+  padding-right: 10px;
+  border-right: 1px solid var(--Darkgary);
+}
+.fontList li span i {
+  font-size: 14px;
+  color: var(--Darkgary);
+}
+.rulerIcon i {
+  color: #e68497 !important;
+}
+
+.fontBold {
+  margin-top: 15px;
+}
+.fontBold ul {
+  display: flex;
+  align-items: center;
+}
+.fontBold li {
+  font-size: 16px;
+  padding-right: 15px;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+.fontBold li sup,
+sub {
+  color: #2b579a;
+  font-weight: 700;
+}
+.fontBold select {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-right: 6px;
+  color: #4c4c4c;
+}
+/* .fontBold li:last-child {
+  border-right: 1px solid var(--Darkgary);
+} */
+.font {
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+}
+.font i {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.fontMenu{
+    border-right: 1px solid var(--Darkgary);
+}
+.b-right{
+    margin-right: 10px;
+    border-right: 1px solid var(--Darkgary);   
+}
+.b-bottom {
+    
+   border-bottom: 5px solid yellow;
+}
+.outlineText {
+  color: transparent !important;
+  font-size: 70px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--Bluecolor);
+
+}
+.b-red{
+    border-bottom: 5px solid red;
+}
+
+/* ===========Paraghraph */
+.paragraphSec {
+    border-right: 1px solid var(--Darkgary);   
+}
+.paraBox {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.paraBox li{
+   padding-right: 20px;
+    font-size: 20px;
+    color: var(--Textbold);
+}
+.paraBox li span{
+    font-size: 12px;
+    padding-left: 10px;
+    color: #2b579a;
+}
+.paraBox li img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.alphabet{
+    display: flex;
+}
+.lettersBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #6c6c6c;
+}
+.lettersBox li{
+    padding: 15px 4px;
+    text-align: center;
+    border: 3px solid #c4c3c3;
+}
+.lettersBox li h2 {
+    color: #000;
+    font-size: 16px;
+}
+.lettersBox li p{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: var(--Textbold);
+}
+.dropDown li {
+    border-bottom: 1px solid ;
+}
+.dropDown{
+    border: 1px solid ;
+    padding: 4px;
+}
+.borderEnd {
+    border-right: 1px solid var(--Darkgary);
+}
+/* WORD-PAGE START */
+.whitePage{
+    padding: 3%0;
+}
+.pageSec{
+    height: 100vh;
+    padding: 6% 0;
+    background: #fff;
+    border: 1px solid  #c6c6c6;
+}
+.addIn {
+    text-align: center;
+}
+.addIn  li {
+    text-transform: capitalize;
+    line-height: 30px;
+    font-weight: 500;
+}
+.addIn  li i{
+    color:#fe9a12;
+}
+.searchingIcon li {
+    
+    text-transform: capitalize;
+    line-height: 30px;
+    font-weight: 500;  
+}
+.searchingIcon li i{
+    padding-right: 10px;
+}
+.arrowIcon i{
+    color: #b7b7b7;
+}
+.magnify i{
+    color: var(--Bluecolor);
+}
+/* WORD-PAGE END */
